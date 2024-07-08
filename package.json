@@ -8,6 +8,9 @@
     "url": "https://github.com/mozilla/multi-account-containers/issues"
   },
   "dependencies": {},
+  "overrides": {
+    "sinon": "^8.1.1"
+  },
   "devDependencies": {
     "addons-linter": "^5.28.0",
     "ajv": "^6.6.3",
@@ -20,13 +23,13 @@
     "mocha": "^10.1.0",
     "npm-run-all": "^4.0.0",
     "nyc": "^15.0.0",
-    "sinon": "^7.5.0",
+    "sinon": "^8.1.1",
     "sinon-chai": "^3.3.0",
     "stylelint": "^13.5.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
     "web-ext": "^7.6.2",
-    "webextensions-jsdom": "^1.2.1"
+    "webextensions-jsdom": "^1.4.1"
   },
   "homepage": "https://github.com/mozilla/multi-account-containers#readme",
   "license": "MPL-2.0",
