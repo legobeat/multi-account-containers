@@ -53,5 +53,6 @@
     "test:once": "mocha test/**/*.test.js",
     "test:watch": "npm run test:once -- --watch",
     "coverage": "nyc --reporter=html --reporter=text mocha test/**/*.test.js --timeout 60000"
-  }
+  },
+  "packageManager": "npm@10.7.0"
 }
